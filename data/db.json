@@ -1,0 +1,220 @@
+{
+  "users": [
+    {
+      "id": "usr_demo",
+      "name": "Sarah Jenkins",
+      "email": "demo@aurawash.com",
+      "password": "password123",
+      "phone": "+91 98234 56789",
+      "address": "Tower 4, Flat 602, Blue Ridge, Hinjawadi Phase 1, Pune, Maharashtra 411057",
+      "notes": "Please leave bags with tower security or ring bell 602.",
+      "createdAt": "2026-09-01T10:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "AW-9156",
+      "currentStageIndex": -1,
+      "status": "Cancelled",
+      "driver": {
+        "name": "Jordan Lee",
+        "phone": "(555) 723-9011",
+        "rating": 4.95,
+        "reviewsCount": 420,
+        "vehicle": "AuraWash Electric Van #04",
+        "etaMinutes": 30
+      },
+      "createdAt": "2026-09-27T19:51:25.654Z",
+      "userId": "usr_demo",
+      "customerName": "Sarah Jenkins",
+      "customerEmail": "demo@aurawash.com",
+      "customerPhone": "+91 98234 56789",
+      "pickupAddress": "Tower 4, Flat 602, Blue Ridge, Hinjawadi Phase 1, Pune, Maharashtra 411057, Pune - 411057",
+      "pickupDate": "2026-09-30",
+      "pickupTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "deliveryDate": "2026-10-08",
+      "deliveryTimeSlot": "Afternoon (1:00 PM - 4:00 PM)",
+      "services": [
+        "Wash & Fold",
+        "Standard Care"
+      ],
+      "items": [
+        {
+          "name": "Everyday Wash & Fold",
+          "quantity": 4,
+          "unit": "kg",
+          "pricePerUnit": 89
+        },
+        {
+          "name": "Dry Cleaned Garments",
+          "quantity": 1,
+          "unit": "pcs",
+          "pricePerUnit": 149
+        },
+        {
+          "name": "Double Bed Blanket / Quilt",
+          "quantity": 1,
+          "unit": "pcs",
+          "pricePerUnit": 299
+        }
+      ],
+      "subtotal": 804,
+      "deliveryFee": 0,
+      "discount": 0,
+      "total": 804,
+      "paymentMethod": "UPI / Cash on Delivery",
+      "specialInstructions": "Leave with tower security or ring bell."
+    },
+    {
+      "id": "AW-9482",
+      "userId": "usr_demo",
+      "customerName": "Sarah Jenkins",
+      "customerEmail": "demo@aurawash.com",
+      "customerPhone": "+91 98234 56789",
+      "pickupAddress": "Tower 4, Flat 602, Blue Ridge, Hinjawadi Phase 1, Pune, Maharashtra 411057",
+      "pickupDate": "2026-09-28",
+      "pickupTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "deliveryDate": "2026-09-29",
+      "deliveryTimeSlot": "Afternoon (1:00 PM - 4:00 PM)",
+      "services": [
+        "Wash & Fold",
+        "Botanical Eco-Wash"
+      ],
+      "items": [
+        {
+          "name": "Everyday Wash & Fold",
+          "quantity": 8,
+          "unit": "kg",
+          "pricePerUnit": 89
+        },
+        {
+          "name": "Double Bed Blanket / Quilt",
+          "quantity": 1,
+          "unit": "pcs",
+          "pricePerUnit": 299
+        },
+        {
+          "name": "Botanical Eco Sanitizer",
+          "quantity": 1,
+          "unit": "load",
+          "pricePerUnit": 99
+        }
+      ],
+      "subtotal": 1110,
+      "deliveryFee": 0,
+      "discount": 100,
+      "total": 1010,
+      "paymentMethod": "UPI / GPay ending in 89",
+      "specialInstructions": "Gentle cycle on comforter, lavender scented botanical wash.",
+      "currentStageIndex": -1,
+      "status": "Cancelled",
+      "driver": {
+        "name": "Rohan Sharma",
+        "phone": "+91 98451 20412",
+        "rating": 4.95,
+        "reviewsCount": 384,
+        "vehicle": "AuraWash EV Delivery Van #08",
+        "etaMinutes": 35
+      },
+      "createdAt": "2026-09-27T18:30:00.000Z"
+    },
+    {
+      "id": "AW-8201",
+      "userId": "usr_demo",
+      "customerName": "Sarah Jenkins",
+      "customerEmail": "demo@aurawash.com",
+      "customerPhone": "+91 98234 56789",
+      "pickupAddress": "Tower 4, Flat 602, Blue Ridge, Hinjawadi Phase 1, Pune, Maharashtra 411057",
+      "pickupDate": "2026-09-26",
+      "pickupTimeSlot": "Afternoon (1:00 PM - 4:00 PM)",
+      "deliveryDate": "2026-09-27",
+      "deliveryTimeSlot": "Evening (5:00 PM - 8:00 PM)",
+      "services": [
+        "Dry Cleaning",
+        "Steam Press"
+      ],
+      "items": [
+        {
+          "name": "Kurta & Blazer Suit",
+          "quantity": 2,
+          "unit": "pcs",
+          "pricePerUnit": 199
+        },
+        {
+          "name": "Formal Shirts (Hung & Pressed)",
+          "quantity": 4,
+          "unit": "pcs",
+          "pricePerUnit": 69
+        }
+      ],
+      "subtotal": 674,
+      "deliveryFee": 0,
+      "discount": 0,
+      "total": 674,
+      "paymentMethod": "UPI (PhonePe)",
+      "specialInstructions": "Light starch on formal collars please.",
+      "currentStageIndex": -1,
+      "status": "Cancelled",
+      "driver": {
+        "name": "Amit Patil",
+        "phone": "+91 98112 38190",
+        "rating": 5,
+        "reviewsCount": 512,
+        "vehicle": "AuraWash Electric Van #03",
+        "etaMinutes": 20
+      },
+      "createdAt": "2026-09-26T12:00:00.000Z"
+    },
+    {
+      "id": "AW-7110",
+      "userId": "usr_demo",
+      "customerName": "Sarah Jenkins",
+      "customerEmail": "demo@aurawash.com",
+      "customerPhone": "+91 98234 56789",
+      "pickupAddress": "Tower 4, Flat 602, Blue Ridge, Hinjawadi Phase 1, Pune, Maharashtra 411057",
+      "pickupDate": "2026-09-18",
+      "pickupTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "deliveryDate": "2026-09-19",
+      "deliveryTimeSlot": "Morning (9:00 AM - 12:00 PM)",
+      "services": [
+        "Wash & Fold"
+      ],
+      "items": [
+        {
+          "name": "Everyday Wash & Fold",
+          "quantity": 5,
+          "unit": "kg",
+          "pricePerUnit": 89
+        }
+      ],
+      "subtotal": 445,
+      "deliveryFee": 49,
+      "discount": 50,
+      "total": 444,
+      "paymentMethod": "PayTM UPI",
+      "specialInstructions": "Standard wash.",
+      "currentStageIndex": 5,
+      "status": "Delivered",
+      "createdAt": "2026-09-18T09:00:00.000Z"
+    }
+  ],
+  "inquiries": [],
+  "serviceableZips": [
+    "411057",
+    "411045",
+    "411027",
+    "411028",
+    "411038",
+    "411033",
+    "411014",
+    "411001",
+    "560001",
+    "560100",
+    "560066",
+    "400001",
+    "400050",
+    "110001",
+    "122001",
+    "500081"
+  ]
+}
