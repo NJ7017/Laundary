@@ -24,8 +24,8 @@ CREATE TABLE IF NOT EXISTS orders (
   pickup_time_slot TEXT NOT NULL,
   delivery_date TEXT NOT NULL,
   delivery_time_slot TEXT NOT NULL,
-  services TEXT,               -- Stored as JSON string
-  items TEXT,                  -- Stored as JSON string
+  services TEXT,
+  items TEXT,
   subtotal REAL DEFAULT 0,
   delivery_fee REAL DEFAULT 0,
   discount REAL DEFAULT 0,
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS orders (
   special_instructions TEXT,
   current_stage_index INTEGER DEFAULT 1,
   status TEXT DEFAULT 'Pickup Scheduled',
-  driver TEXT,                 -- Stored as JSON string
+  driver TEXT,
   created_at TEXT DEFAULT (datetime('now'))
 );
 
